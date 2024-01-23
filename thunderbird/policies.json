@@ -1,0 +1,41 @@
+{
+  "policies": {
+    "DisableTelemetry": true,
+
+     "Cookies": {
+      "AcceptThirdParty": "never",
+      "ExpireAtSessionEnd": true,
+    },
+    
+    "NetworkPrediction": false,
+    
+    "PDFjs": {
+      "Enabled": false,
+      "EnablePermissions": false
+    },
+    
+    "Preferences": {
+      "network.IDN_show_punycode": true,
+      "toolkit.telemetry.enabled": false,
+      "toolkit.telemetry.unified": false,
+      "toolkit.telemetry.shutdownPingSender.enabled": false,
+      "toolkit.telemetry.updatePing.enabled": false,
+      "toolkit.telemetry.archive.enabled": false,
+      "toolkit.telemetry.bhrPing.enabled": false,
+      "toolkit.telemetry.firstShutdownPing.enabled": false,
+      "toolkit.telemetry.newProfilePing.enabled": false,
+      "datareporting.healthreport.uploadEnabled": false,
+      "datareporting.policy.dataSubmissionEnabled": false,
+      "toolkit.telemetry.coverage.opt-out": true,
+      "toolkit.coverage.opt-out": true,
+      "network.connectivity-service.enabled": false,
+      "network.prefetch-next": false,
+      "network.dns.disablePrefetch": true,
+      "network.predictor.enabled": false,
+      "mailnews.headers.sendUserAgent": false,
+      "mail.sanitize_date_header": true
+    },
+    
+    "PromptForDownloadLocation": true
+  }
+}
