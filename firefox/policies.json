@@ -1,0 +1,255 @@
+{
+  "policies": {
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableFormHistory": true,
+    "DisablePocket": true,
+    "DisableSystemAddonUpdate": false,
+    "DisableTelemetry": true,
+
+    "EncryptedMediaExtensions": {
+      "Enabled": false,
+      "Locked": false
+    },
+    
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      }
+    },
+    "ExtensionUpdate": true,
+    
+    "FirefoxHome": {
+      "SponsoredTopSites": false,
+      "SponsoredPocket": false,
+      "Locked": true
+    },
+    
+    "FirefoxSuggest": {
+      "SponsoredSuggestions": false,
+      "ImproveSuggest": false,
+      "Locked": true
+    },
+    
+    "NetworkPrediction": false,
+    "NoDefaultBookmarks": true,
+    "PasswordManagerEnabled": false,
+    
+    "PDFjs": {
+      "Enabled": false,
+      "EnablePermissions": false
+    },
+    
+    "PopupBlocking": {
+      "Default": true,
+      "Locked": true
+    },
+    
+    "Preferences": {
+      "browser.contentblocking.category": {
+        "Value": "strict",
+        "Status": "locked"
+      },
+      
+      "security.mixed_content.block_display_content": {
+        "Value": true,
+        "Status": "locked"
+      },
+
+      "dom.security.https_only_mode": {
+        "Value": true,
+        "Status": "locked"
+      },
+      
+      "dom.security.https_only_mode_send_http_background_request": {
+        "Value": false,
+        "Status": "locked"
+      },
+
+      "network.http.referer.XOriginTrimmingPolicy": {
+        "Value": 2,
+        "Status": "locked"
+      },
+      
+      "network.IDN_show_punycode": true,
+      "media.peerconnection.ice.default_address_only": true,
+      "security.OCSP.require": true,
+      "security.cert_pinning.enforcement_level": 2,
+      "security.remote_settings.crlite_filters.enabled": true,
+      "security.pki.crlite_mode": true,
+      "security.ssl.treat_unsafe_negotiation_as_broken": true,
+      "browser.xul.error_pages.expert_bad_cert": true,
+      "browser.cache.disk.enable": false,
+      "browser.sessionstore.privacy_level": 2,
+      "browser.safebrowsing.downloads.enabled": false,
+      
+      "network.prefetch-next": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "network.dns.disablePrefetch": {
+        "Value": true,
+        "Status": "locked"
+      },
+
+      "network.predictor.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.places.speculativeConnect.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.urlbar.speculativeConnect.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "network.http.speculative-parallel-limit": {
+        "Value": 0,
+        "Status": "locked"
+      },
+
+      "network.predictor.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "network.connectivity-service.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "network.captive-portal-service.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+
+      "browser.tabs.crashReporting.sendReport": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.crashReports.unsubmittedCheck.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.crashReports.unsubmittedCheck.autoSubmit2": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "app.normandy.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.unified": {
+        "Value": false,
+        "Status": "locked"
+      },
+
+      "toolkit.telemetry.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.archive.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.archive.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.newProfilePing.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.shutdownPingSender.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+
+      "toolkit.telemetry.updatePing.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.bhrPing.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.firstShutdownPing.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "toolkit.telemetry.coverage.opt-out": {
+        "Value": true,
+        "Status": "locked"
+      },
+      
+      "toolkit.coverage.opt-out": {
+        "Value": true,
+        "Status": "locked"
+      },
+
+      "browser.ping-centre.telemetry": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.newtabpage.activity-stream.feeds.telemetry": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "browser.newtabpage.activity-stream.telemetry": {
+        "Value": false,
+        "Status": "locked"
+      },
+     
+      "datareporting.policy.dataSubmissionEnabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      
+      "datareporting.healthreport.uploadEnabled": {
+        "Value": false,
+        "Status": "locked"
+      }
+    },
+    
+    "PromptForDownloadLocation": true,
+    
+    "RequestedLocales": "en-US",
+    
+    "SearchEngines": {
+      "Default": "DuckDuckGo",
+      "PreventInstalls": true
+    },
+    
+    "StartDownloadsInTempDirectory": true,
+    
+    "UserMessaging": {
+      "WhatsNew": false,
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "SkipOnboarding": false,
+      "MoreFromMozilla": false,
+      "Locked": true
+    }
+  }
+}
