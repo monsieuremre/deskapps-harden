@@ -2,6 +2,9 @@
 ## About the project
 This project aims to harden various desktop user applications for computers running a GNU/Linux distribution.
 
+### What this isn't
+This isn't a redistribution or even a distribution of any of the software that is being hardened. It is just a bunch of configuration files. You can install these config files to harden the apps, but these are just complementary config files that are no good on their own if you do not have the software to be hardened.
+
 ### State of things
 Project is very young and in early development and there are practically only very few applications and they are still not hardened to the fullest.
 
